@@ -6,7 +6,7 @@ print(a_list)
 a_list.insert(0,1)
 print(a_list)
 
-a_list.remove(1)#only delete one value
+a_list.remove(1)#if have two value only delete one value
 print(a_list)
 
 print(a_list[0:2])
