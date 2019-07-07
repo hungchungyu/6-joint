@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+# license removed for brevity
 import rospy
 from std_msgs.msg import String
 
@@ -8,7 +10,7 @@ def listener():
 
     rospy.init_node('listener', anonymous=True)
 
-    rospy.Subscriber('chatter', String, callback)
+    rospy.Subscriber('chatter', String, callback)#監聽chatter這個topic
 
     rospy.spin()
 
